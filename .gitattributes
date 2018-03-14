@@ -1,0 +1,6 @@
+data/indata/tmax_2015GSMNPsubset.nc filter=lfs diff=lfs merge=lfs -text
+data/indata/tmax_2016GSMNPsubset.nc filter=lfs diff=lfs merge=lfs -text
+data/outdata/JJA_2015_tmaxavg.png filter=lfs diff=lfs merge=lfs -text
+data/outdata/JJA_2016_tmaxavg.png filter=lfs diff=lfs merge=lfs -text
+data/outdata/tmaxJJA_2015.nc filter=lfs diff=lfs merge=lfs -text
+data/outdata/tmaxJJA_GSMNPsubset.nc filter=lfs diff=lfs merge=lfs -text
