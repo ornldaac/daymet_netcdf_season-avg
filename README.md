@@ -1,14 +1,17 @@
 # Python Methods to Derive a Seasonal Mean from Daymet Data - Reading/Writing netCDF
 
 *Author: Michele Thornton*
+
 *Date: February 28, 2018*
-*Contact for ORNL DAAC: uso@daac.ornl.gov
+
+*Contact for ORNL DAAC: uso@daac.ornl.gov*
 
 ### Keywords: Daymet, Python, netCDF, THREDDS
 
 ## Overview
 
-This tutorial demonstrates how to use the Python netCDF4 and numpy modules to work with a dataset in netCDF file format using N-dimensional array objects. Introductory Python numpy array methods are shown that open and subset a temporal range from a gridded multidimentional netCDF file. The example uses data from the maximum temperature variables of a dataset (Daymet) that contain daily gridded meteorologic data. A summer average maximum temperature is created and the results saved into a new netCDF file. This is part one of a two part tutorial. The follow-on tutorial condenses introductory information and demonstates how to loop through more than one year of data. 
+This tutorial demonstrates how to use the Python netCDF4 and numpy modules to work with a dataset in netCDF file format using N-dimensional array objects. Introductory Python numpy array methods are shown that open and subset a temporal range from a gridded multidimentional netCDF file. The example uses data from the maximum temperature variables of a dataset (Daymet) that contain daily gridded meteorologic data. A summer average maximum temperature is created and the results saved into a new netCDF file. This is part one of a two part tutorial. The follow-on tutorial condenses introductory information and demonstates how to loop through more than one year of data.
+
 ![Max Temp Avg, Summer 2016, GSMNP](NCSS_GSMNPsubset.png)
 
 ## Source Data
