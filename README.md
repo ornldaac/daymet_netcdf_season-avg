@@ -24,6 +24,6 @@ Python 2.7 or later. Python modules: netCDF4, numpy, matplotlib, pylab, datetime
 
 ## Procedure
 
-You can access the two tutorials below:
+You can access the two tutorials here:
 [Tutorial 1](daymet_netcdf_season-avg.ipynb)
 [Tutorial 2](daymet_netcdf_season-avg-loopyrs.ipynb)
