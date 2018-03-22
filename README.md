@@ -8,7 +8,8 @@
 
 ## Overview
 
-These tutorials demonstrates how to use the Python netCDF4 and numpy modules to work with a dataset in netCDF file format using N-dimensional array objects. Introductory Python numpy array methods are shown that open and subset a temporal range from a gridded multidimentional netCDF file. The example uses data from the maximum temperature variables of a dataset (Daymet) that contain daily gridded meteorologic data. A summer average maximum temperature is created and the results saved into a new netCDF file. This is part one of a two part tutorial. The follow-on tutorial condenses introductory information and demonstates how to loop through more than one year of data.
+These tutorials demonstrate how to use the Python netCDF4 and numpy modules to work with a dataset in netCDF file format using N-dimensional array objects. Python numpy array methods are shown that open and subset a temporal range from a gridded multidimentional netCDF file. The example uses data from the maximum temperature variables of a dataset (Daymet) that contain daily gridded meteorologic data. In the first tutorial, a summer average maximum temperature is created and the results saved into a new netCDF file. A second tutorial condenses introductory information and demonstates how to loop through more than one year of data.
+
 
 ![Max Temp Avg, Summer 2016, GSMNP](NCSS_GSMNPsubset.png)
 
@@ -19,4 +20,10 @@ The sample input data were uploaded to the github site using the Git Large File 
 
 ## Prerequisites
 
-Python 2.7 or later. Python modules: netCDF4, numpy, matplotlib
+Python 2.7 or later. Python modules: netCDF4, numpy, matplotlib, pylab, datetime
+
+## Procedure
+
+You can access the two tutorials below:
+[Tutorial 1](daymet_netcdf_season-avg.ipynb)
+[Tutorial 2](daymet_netcdf_season-avg-loopyrs.ipynb)
