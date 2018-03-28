@@ -15,8 +15,14 @@ These tutorials demonstrate how to use the Python netCDF4 and numpy modules to w
 
 ## Source Data
 
-Spatial subsests of the North American Daymet dataset daily data; https://daymet.ornl.gov. For this example, spatial subsets were obtained from the ORNL DAAC's THREDDS netCDF Subset Service (NCSS). A tutorial of the NCSS is available here: https://daymet.ornl.gov/web_services.html. 
-The sample input data were uploaded to the github site using the Git Large File Storage (LFS) utility. If you'd like to work with these sample data, you can download the files from git by clicking directly on the file names in the //indata path and clicking on the "Download" button provided in the Git page.
+Spatial subsets of the North American Daymet dataset daily data: https://daymet.ornl.gov.
+
+For these tutorials, spatial subsets were obtained from the ORNL DAAC's THREDDS netCDF Subset Service (NCSS). A tutorial of the NCSS is available [here](https://daymet.ornl.gov/web_services.html) under the "Gridded Subsets" tab: . 
+
+You can download the 2015 maximum temperature Daymet subset data used in these tutorials by pasting the following HTTP GET NCSS Request URL into a browser:\
+https://thredds.daac.ornl.gov/thredds/ncss/ornldaac/1328/2015/daymet_v3_tmax_2015_na.nc4?var=lat&var=lon&var=tmax&north=36.61&west=-85.37&east=-81.29&south=33.57&disableProjSubset=on&horizStride=1&time_start=2015-01-01T12%3A00%3A00Z&time_end=2015-12-31T12%3A00%3A00Z&timeStride=1&accept=netcdf
+
+Daymet subset data for 2016 can be downloaded by updating the URL above to the 2016 dataset path and changing to 2016 in the time_start and time_end parameters.
 
 ## Prerequisites
 
